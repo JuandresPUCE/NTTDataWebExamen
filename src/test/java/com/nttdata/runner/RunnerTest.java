@@ -11,7 +11,12 @@ import org.junit.runner.RunWith;
         stepNotifications = true,
         features = "src/test/resources/features",
         glue = "com.nttdata",
-        tags = "@test"
+
+        //tags = "@loginQALab-test"
+        //tags = "@categoria-inexistente-test"
+        //tags = "@categoria-existente-test"
+        tags = "@examen"
+
 )
 public class RunnerTest {
 }
